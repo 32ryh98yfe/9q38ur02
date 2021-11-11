@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ending</title>
+        
+        <style>
+            @font-face {
+                font-family: 'DungGeunMo';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body{
+                background-color: rgb(0, 0, 218);
+                font-family: 'DungGeunMo';
+            }
+
+            #contents{
+                margin: auto;
+                width: 700px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                
+            }
+
+            #title{
+                background-color: wheat;
+                font-size: 18pt;
+                padding: 7px;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 10%;
+                width: 260px;
+                display: block;
+                
+            }  
+            
+            #text{
+                line-height: 180%;
+                font-size: 13pt;
+                color: white;
+                text-align: center;
+                
+            }
+
+            #home{
+                
+                line-height: 180%;
+                font-size: 15pt;
+                text-align: center;
+                margin: auto;
+                margin-top: 10%;
+                color: white;
+                opacity: 0%;
+                animation-duration: 1.5s;
+                animation-name: hidetext;
+                animation-iteration-count: infinite;
+                opacity: 0;
+                }
+                @keyframes hidetext {
+                0% {
+                opacity: 100%;
+                }
+                50%{
+                opacity: 0%;
+                }
+                100%{
+                opacity: 100%;
+                
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="contents">
+            <span id="title">
+                부장 부서 이직 (퇴출)
+            </span>
+
+            <div id="text">
+                R의 사내 수리를 기점으로 기획을 뺏기었던 많은 사원들이 사내수리에 B를 고발한다.<br>
+                피해자가 워낙에 많았던 탓에 회사에서는 이에 관련한 회의가 열렸고 기획을 <br>가로챈 건 뿐만 아니라 보고서 대리 작성, 
+                특히 멀쩡한 프로젝트의 기간을 늦추어서 회사의 매출에 영향을 미친점, 사적으로 법인카드를 사용한 점이 적발되어<br>처벌이 확정 된다.<br>
+
+            </div>
+
+            <div id="home"> <br>
+                Click here to continue _
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

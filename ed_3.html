@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ending</title>
+        
+        <style>
+            @font-face {
+                font-family: 'DungGeunMo';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body{
+                background-color: rgb(0, 196, 0);
+                font-family: 'DungGeunMo';
+            }
+
+            #contents{
+                margin: auto;
+                width: 700px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                
+            }
+
+            #title{
+                background-color: wheat;
+                font-size: 18pt;
+                padding: 7px;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 10%;
+                width: 220px;
+                display: block;
+                
+            }  
+            
+            #text{
+                line-height: 180%;
+                font-size: 13pt;
+                color: white;
+                text-align: center;
+                
+            }
+
+            #home{
+                
+                line-height: 180%;
+                font-size: 15pt;
+                text-align: center;
+                margin: auto;
+                margin-top: 10%;
+                color: white;
+                opacity: 0%;
+                animation-duration: 1.5s;
+                animation-name: hidetext;
+                animation-iteration-count: infinite;
+                opacity: 0;
+                }
+                @keyframes hidetext {
+                0% {
+                opacity: 100%;
+                }
+                50%{
+                opacity: 0%;
+                }
+                100%{
+                opacity: 100%;
+                
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="contents">
+            <span id="title">
+                내가 퇴사하고 말지
+            </span>
+
+            <div id="text">
+                부장의 인맥들과 그만 두기에는 너무 커진 프로젝트의 진행이 안 될 것을 우려한<br>회사는 감봉 4개월이라는 솜방망이 처벌을 하고 만다.
+                부장의 사내 실적에서<br>많은 부분이 가로챈 업적이지만, 실제로 본인이 순수하게 세운 업적이 있을 뿐더러,<br>가로챈 기획에서 본인이 수정한 기획이 기존의 기획보다 더 좋았던 전적, 
+                회사가<br>당장은 자신을 처벌하지 못할 것을 깨달은 부장은 아예 대놓고<br>횡포를 부리기 시작한다. 모니터의 전원코드를 망가진 코드로 교체한 뒤 컴퓨터가<br>고장난척 일을 하지 못하게 한 것을 시작으로 R이  노트북을 가져와 일을 하려 하자<br>남는 코드가 이곳 밖에 없으니 당분간만 이곳에서 일해달라며 탕비실로 자리를 <br>옮겨 버린다. 사무실에 돌아와서 한참을 멍하게 있다가 R은 사직서를<br>작성하기 시작한다          
+            </div>
+
+            <div id="home"> <br>
+                Click here to continue _
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ending</title>
+        
+        <style>
+            @font-face {
+                font-family: 'DungGeunMo';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body{
+                background-color: rgb(0, 0, 218);
+                font-family: 'DungGeunMo';
+            }
+
+            #contents{
+                margin: auto;
+                width: 700px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                
+            }
+
+            #title{
+                background-color: wheat;
+                font-size: 18pt;
+                padding: 7px;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 10%;
+                width: 170px;
+                display: block;
+                
+            }  
+            
+            #text{
+                line-height: 180%;
+                font-size: 13pt;
+                color: white;
+                text-align: center;
+            }
+
+            #home{
+                
+                line-height: 180%;
+                font-size: 15pt;
+                text-align: center;
+                margin: auto;
+                margin-top: 10%;
+                color: white;
+                opacity: 0%;
+                animation-duration: 1.5s;
+                animation-name: hidetext;
+                animation-iteration-count: infinite;
+                opacity: 0;
+                }
+                @keyframes hidetext {
+                0% {
+                opacity: 100%;
+                }
+                50%{
+                opacity: 0%;
+                }
+                100%{
+                opacity: 100%;
+                
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="contents">
+            <span id="title">
+                부장 퇴사 처분
+            </span>
+
+            <div id="text">
+                친구들의 조언을 듣고 부장의 폭언을 녹음, 대화 내용들을 캡쳐, 등등 약 3개월 동안<br>증거를 수집하고, 자신의 기획을 가로채간 건을 증명하는 증거자료를 모으고,<br>사내 수리를 넣는다.<br>
+                피해자가 워낙에 많았던 탓에 회사에서는 이에 관련한 회의가 열렸고<br>기획을 가로챈 것뿐만 아니라 보고서 대리 작성, 
+                특히 멀쩡한 프로젝트의<br>기간을 늦추어서 회사의 매출에 영향을 미친점, 사적으로 법인카드를 사용한 점이<br>적발되어 처벌이 확정 된다.
+            </div>
+
+            <div id="home"> <br>
+                Click here to continue _
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>
